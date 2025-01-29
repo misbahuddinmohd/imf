@@ -10,4 +10,4 @@ router.post('/:id/self-destruct', authControllers.verifyJWT, gadgetsControllers.
 router.patch('/:id', authControllers.verifyJWT, gadgetsControllers.updateGadget);
 router.delete('/:id', authControllers.verifyJWT, gadgetsControllers.decommissionGadget);
 
-module.exports = router;    
+module.exports = router; 
