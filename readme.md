@@ -26,7 +26,7 @@ The **Impossible Missions Force (IMF)** requires a secure API to manage their hi
 | `id` | UUID | Unique identifier |
 | `name` | String | Gadget name |
 | `status` | Enum | `Available`, `Deployed`, `Destroyed`, `Decommissioned` |
-| `decommissionedAt` | Timestamp (nullable) | Time of decommissioning |
+| `statusTimeStamp` | Timestamp (nullable) | Time of decommissioning |
 
 ## Bonus Features
 - **Authentication & Authorization**: JWT-based authentication to protect API endpoints.
