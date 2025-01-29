@@ -37,9 +37,7 @@ exports.getGadgets = async (req, res) => {
             ...gadget,
             missionSuccessProbability: Math.floor(Math.random() * 101)
         }));
-
-        console.log(finalGadgets);
-
+        
         res.status(200).json({
             status: 'success',
             length: finalGadgets.length, 
