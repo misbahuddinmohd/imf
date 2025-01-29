@@ -42,6 +42,7 @@ exports.getGadgets = async (req, res) => {
 
         res.status(200).json({
             status: 'success',
+            length: finalGadgets.length, 
             data: finalGadgets
         });
     } catch (err) {
